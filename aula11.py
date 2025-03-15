@@ -46,4 +46,4 @@ cores = {'limpa': '\033[m',
         'ciano': '\033[36m'}
 print(f'Olá! Muito prazer em te conhecer, {cores["vermelho"]}{nome}{cores["limpa"]}!!!')
 print(f'Olá! Muito prazer em te conhecer, {cores["verde"]}{nome}{cores["limpa"]}!!!')
-print(f'Olá! Muito prazer em te conhecer, {cores["azul']}Santana{cores["limpa"]}!!!')"]}
+print(f'Olá! Muito prazer em te conhecer, {cores["azul"]}Santana{cores["limpa"]}!!!')
