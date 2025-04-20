@@ -2,6 +2,8 @@
  # e a razão de uma PA, mostrando os 10 primeiros termos da progressão usando a
  # estrutura while.
  
+# Exemplo de execução:
+print("=-=" * 10 ) 
 primeiro_termo = int(input("Digite o primeiro termo da PA: "))
 razao = int(input("Digite a razão da PA: "))
 termos = 10
