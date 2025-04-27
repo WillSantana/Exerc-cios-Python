@@ -8,11 +8,15 @@
 print("=-=" * 15)
 print("Bem-vindo ao caixa eletrônico!")
 print("=-=" * 15)
+
+
 valor = int(input("Digite o valor a ser sacado (número inteiro): "))
 # Inicializa as cédulas disponíveis
 cedulas = [100, 50, 20, 10, 5, 1]
 # Inicializa o dicionário para armazenar a quantidade de cédulas
 while True:
+    
+    # Verifica se o valor é negativo ou zero para sair do loop
     if valor < 0:
         print("Valor inválido. O valor deve ser maior ou igual a zero.")
         valor = int(input("Digite o valor a ser sacado (número inteiro): "))
@@ -21,6 +25,9 @@ while True:
         print("Valor inválido. O valor deve ser maior que zero.")
         valor = int(input("Digite o valor a ser sacado (número inteiro): "))
         break
+    
+    
+    
     else:
         valor_sacado = valor # Armazena o valor sacado
         cedulas_entregues = {} # Dicionário para armazenar a quantidade de cédulas entregues

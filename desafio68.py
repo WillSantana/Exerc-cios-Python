@@ -3,12 +3,14 @@
 # O jogo só será interrompido quando o jogador perder, 
 # mostrando o total de vitórias consecutivas que ele conquistou no final do jogo.
 
-
+# biblioteca random para gerar números aleatórios e time para fazer pausas no programa
 import random
 import time
 print('Vamos jogar Par ou Ímpar!')
 print('-' * 20)
 vitoria = 0
+
+# Loop infinito para continuar jogando até perder o jogador escolhe um número inteiro e o computador gera um número aleatório
 while True:
     jogador = int(input('Digite um número inteiro: '))
     computador = random.randint(0, 10)
