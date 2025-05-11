@@ -30,7 +30,11 @@ times = (
     "Sport"
 )
 
+print ('-=-' * 20)
 print("Os 5 primeiros colocados são:", times[:5])
+print('-=-' * 20)
 print("Os 4 últimos colocados são:", times[-4:])
+print('-=-' * 20)
 print("Times em ordem alfabética:", sorted(times))
+print('-=-' * 20)
 print("O Cruzeiro está na posição:", times.index("Cruzeiro") + 1)
