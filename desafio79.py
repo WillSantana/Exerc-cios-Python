@@ -3,11 +3,13 @@
 # Caso o número já exista, ele não será adicionado. No final, exiba todos os valores únicos digitados, em ordem crescente.
 
 valores = []
+
 # Loop para receber valores do usuário, O loop continua até que o usuário digite -1
 while True:
     valor = int(input('Digite um valor (ou -1 para sair): '))
     if valor == -1:
         break
+    
     # Verifica se o valor já existe na lista
     if valor not in valores:
         valores.append(valor)
